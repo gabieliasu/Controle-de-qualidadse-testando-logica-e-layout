@@ -1,0 +1,49 @@
+Testando a funcionalidade do aplicativo Urban routes.
+
+O objetivo principal deste projeto é testar a funcionalidade do aplicativo, conforme requisitos,  em dois ambientes: 
+
+ Google Chrome, resolução da tela 800x600 e Firefox, resolução da tela 1920x1080
+
+1-Preparando  a documentação do teste para testar o layout do formulário de reserva de carro.
+Atenção aos detalhes envolvendo todos os requisitos.
+Plataforma Figma mostrando todo design.
+
+cheklist e resultados de teste criados:
+https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/edit?usp=sharing&ouid=116259215055925948735&rtpof=true&sd=true
+
+2- Preparando a documentação de teste para testar a lógica do aplicativo.
+
+Após Analise dos requisitos para o recurso de compartilhamento de carro, foi criado um checklist para testar o recurso da janela "Método de Pagamento" e "Adicionar um Cartão".  Método de Particionamento de Equivalência e a Análise do Valor Limite foram usados incluindo testes negativos e positivos.
+link: https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/edit?usp=sharing&ouid=116259215055925948735&rtpof=true&sd=true
+
+3- Preparando os casos de teste e testando
+
+(1)-Foi testada a lógica do botão "Reservar".
+ Todos os requisitos com cenários negativos e positivos foram verificados.
+Se o usuário preencheu todos os campos corretamente e clicou no botão "Reservar", a janela com o cabeçalho "Carro foi reservado" aparecerá na tela. A marca, a placa, o ícone, e o endereço do carro estão dentro, bem como o custo da corrida e o cronômetro que exibe o tempo de espera gratuito.
+Se os campos "De" e "Para" estiverem preenchidos, o custo exato da corrida será mostrado. Caso contrário, o preço por minuto será exibido.
+foi verificado:
+
+a lógica do botão de reserva ao preencher todos os campos obrigatórios do formulário de reserva;
+ a lógica do aplicativo ao preencher todos os campos e endereços obrigatórios,exceto para a carteira de motorista;
+a lógica do aplicativo ao preencher todos os campos e endereços obrigatórios,exceto para o método de pagamento;
+a lógica do aplicativo ao preencher todos os campos e endereços obrigatórios e os endereços forem excluídos;
+a lógica do aplicativo quando todos os campos obrigatórios não forem preenchidos e os endereços forem excluídos;
+
+link: https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/edit?usp=sharing&ouid=116259215055925948735&rtpof=true&sd=true
+
+(2)- a lógica dos recursos de reserva
+Vericado :
+
+ a lógica da reserva ao preencher os campos De e Para;
+ a lógica da reserva ao apertar o botão ''cancelar'' ;
+a lógica da reserva ao apertar o botão ''cancelar'' e clicar em ''não'';
+ a lógica do aplicativo quando todos os campos obrigatórios não forem preenchidos e os
+endereços forem excluídos; 
+
+link:
+https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/edit?usp=sharing&ouid=116259215055925948735&rtpof=true&sd=true
+
+Todos os testes reprovados foram registrados no Jira, como relátorio de bug.
+Neste projeto foram encontrados muitos testes reprovados que foram relatados e prrecisavam de ajustes.
+Tivemos casos de teste bloqueados por não conseguirmos acesso por conta dos bugs.
