@@ -14,6 +14,7 @@ https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/edit?us
 2- Preparando a documentação de teste para testar a lógica do aplicativo.
 
 Após Analise dos requisitos para o recurso de compartilhamento de carro, foi criado um checklist para testar o recurso da janela "Método de Pagamento" e "Adicionar um Cartão".  Método de Particionamento de Equivalência e a Análise do Valor Limite foram usados incluindo testes negativos e positivos.
+
 link: https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/edit?usp=sharing&ouid=116259215055925948735&rtpof=true&sd=true
 
 3- Preparando os casos de teste e testando
@@ -22,8 +23,8 @@ link: https://docs.google.com/spreadsheets/d/1eJvLhh69AsU6PynfMbnRqrH5QUwgd13H/e
  Todos os requisitos com cenários negativos e positivos foram verificados.
 Se o usuário preencheu todos os campos corretamente e clicou no botão "Reservar", a janela com o cabeçalho "Carro foi reservado" aparecerá na tela. A marca, a placa, o ícone, e o endereço do carro estão dentro, bem como o custo da corrida e o cronômetro que exibe o tempo de espera gratuito.
 Se os campos "De" e "Para" estiverem preenchidos, o custo exato da corrida será mostrado. Caso contrário, o preço por minuto será exibido.
-foi verificado:
 
+foi verificado:
 a lógica do botão de reserva ao preencher todos os campos obrigatórios do formulário de reserva;
  a lógica do aplicativo ao preencher todos os campos e endereços obrigatórios,exceto para a carteira de motorista;
 a lógica do aplicativo ao preencher todos os campos e endereços obrigatórios,exceto para o método de pagamento;
