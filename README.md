@@ -3,5 +3,8 @@ Este projeto foi desenvolvido durante o curso de QA da TripleTen. Vamos preparar
 
 # Recursos
 cheklists: lista de itens a serem testados.
+
 casos de testes: descrição do processo de testar um serviço.
+
 Relátorio de bugs no Jira: problemas relatados e rastreados identificados durante os testes.
+
