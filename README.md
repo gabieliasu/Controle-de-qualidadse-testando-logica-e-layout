@@ -1,11 +1,8 @@
-# About
-Testando a funcionalidade do aplicativo do Urban routes
 
-Este projeto foi desenvolvido durante o curso de QA da TripleTen.
 
 # Urban Routes 
 
-Vamos preparar a documentação do teste para testar o layout e a lógica do aplicativo, preparar os casos de teste para iniciar os tester, e relatar bugs identificados para correção.
+Preparei a documentação do teste para testar o layout e a lógica do aplicativo, os casos de teste para iniciar os testes, e relatar bugs identificados para correção.
 
 Uma Extensa e completa checklist testando layout e a lógica foi criada para facilitar os testes ,acompanhada de casos de teste específicos para a lógica do botão reservar para testar a lógica do aplicativo.
 
@@ -25,5 +22,5 @@ Relátorio de bugs no Jira: problemas relatados e rastreados identificados duran
 
 # Resultado
 Testes aprovados e reprovados por falhas que estão em desacordo com requisitos.
-Tivemos testes bloqueados por bugs que não foi possível testar para dar aprovado ou reprovado.
+Tive testes bloqueados por bugs que não foi possível testar para dar aprovado ou reprovado.
 
